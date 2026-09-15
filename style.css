@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #02133e;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: #1b4d66;
+    margin: 0;
+    height: 300px;
+    text-align: center;
+    /* vertical-align: middle; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    color: #d68f3e;
+    font-size: 80px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+}
+
+p.description {
+    margin: 50px;
+}
+
+.projects img {
+    max-height: 70%;
+    max-width: 100%;
+}
+
+.projects {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects.pair {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.projects.mono {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.project {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project .title {
+    font-size: 24px;
+}
+
+.project .content {
+    margin-top: auto;
+}
+
+footer {
+    height: 60px;
+    background-color: #242424;
+    padding: 30px;
+}
